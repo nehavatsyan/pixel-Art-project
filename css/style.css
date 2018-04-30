@@ -1,0 +1,77 @@
+header{
+  color: black;
+  background-color: #80b3ff;
+  font-size: 40px;
+  font-style: normal;
+  font-family:Algerian;
+  margin: 00px 00px 30px 00px;
+  padding : 20px 20px 20px 20px;
+
+       }
+
+.button{
+  width:500px;
+  padding: 20px 20px 20px 20px;
+  margin: 30px 30px 30px 30px;
+  font-size: 20px;
+    font-family: Algerian;
+}
+.styleCanvas{
+  font-size: 20px;
+  margin: 30px 30px 30px 330px;
+  font-family: Algerian;
+  position:absolute;
+  top :100px;
+  left:300px;
+}
+.sub{
+  font-size: 20px;
+  margin: 30px 30px 30px 30px;
+    font-family: Algerian;
+    left:10px;
+    position:absolute;
+}
+.sidebar{
+  position:absolute;
+  top:150px;
+  left:10px;
+}
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  
+}
+
+tr {
+  height: 20px;
+  
+}
+
+td {
+  width: 20px;
+  
+}
+
+input[type="number"] {
+  width: 6em;
+
+  font-family: "Lobster", cursive;
+}
+input {
+  font-family: "Lobster Two", cursive;
+}
+footer{
+  color: black;
+  background-color: #80b3ff;
+  font-size: 40px;
+  font-style: normal;
+  font-family:Algerian;
+  margin: 500px 00px 30px 00px;
+  padding : 20px 20px 20px 20px;
+
+}

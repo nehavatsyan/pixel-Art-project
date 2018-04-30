@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Neha</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/pixel.css">
+  </head>
+
+  <body>
+    <header align="center">PIXEL ART MAKER</header>
+    <div class="sidebar">
+    <form  class="inputs" onsubmit="return makeGrid();">
+      <label class="button">ENTER HEIGHT :</label>
+        <input type='number' id="heights" name="height "min="1" max="50" value="0"><br>
+      <label class="button">ENTER WIDTH   :</label>
+        <input type='number' id="widths" min="1" name="weight" max="50" value="0"><br>
+      <label class="button">SELECT COLOR : <label>
+        <input type='color' id="colorPicker"><br>
+<input type='submit' value='submit' class="sub"><br>        
+    </form>
+
+  </div>
+    <div id="canvas" class="styleCanvas">
+      <h3>YOUR CANVAS</h3>
+      <table id="pixelCanvas">
+        <tbody></tbody>
+      </table>
+
+    </div>
+    <script src="js/designs.js"></script>
+<footer align="center">THINK -> INNOVATE -> ACT -> CREATE</footer>
+  </body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
