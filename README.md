@@ -1,4 +1,4 @@
-# pixel-Art-project
+# Pixel-Art-project
 Pixel Art Maker
 
 1) Dynamically sets the size of the table as an N by M grid.
